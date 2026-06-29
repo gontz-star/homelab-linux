@@ -1,0 +1,19 @@
+# Homelab Linux
+
+## Objectives
+
+This Repository documents my personal Linux and Infrastructure lab.
+
+## Technologies
+
+- Ubuntu Server 26.04 LTS
+- Git
+- SSH
+
+## Next Themes
+
+- Networking
+- Docker
+- Ansible
+- Grafana
+- Prometheus
