@@ -63,3 +63,30 @@ I also learned about encapsulation and decapsulation, where each layer adds or r
 - Each layer has a specific responsibility.
 - Data is encapsulated before being transmitted and decapsulated when received.
 - TCP provides reliable communication, while UDP prioritizes speed.
+
+# CCNA Day 5 - Ethernet LAN Switching (Part 1)
+
+## Concepts Learned
+
+* Ethernet LAN
+* Ethernet Frame
+* MAC Address
+* Header, Data and Trailer
+* FCS (Frame Check Sequence)
+* Unicast
+* Broadcast
+* Flooding
+* MAC Address Table
+* Ethernet Switch
+
+## Summary
+
+In this video I learned how Ethernet switches forward frames inside a local network. I learned that switches use MAC addresses instead of IP addresses to decide where to send a frame. I also learned the basic structure of an Ethernet frame and how switches build a MAC address table by learning the source MAC address of incoming frames.
+
+## Key Takeaways
+
+* Switches forward traffic using MAC addresses.
+* An Ethernet frame contains a Header, Data, and Trailer.
+* The FCS is used to detect transmission errors.
+* If a switch does not know the destination MAC address, it floods the frame to all ports except the one where it was received.
+* The MAC address table allows switches to send frames only to the correct destination port.
